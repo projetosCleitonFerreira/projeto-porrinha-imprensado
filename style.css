@@ -50,10 +50,10 @@ body {
 }
 
 select {
-    width: 50%;
+    width: 550px;
     font-size: 20px;
     color: rgb(0, 0, 0);
-    height: 400px;
+    height: 100%vh;
 }
 
 section > div {
@@ -64,5 +64,34 @@ section > div {
     margin: 15px;
     font-size: 30px;
     background-color: rgba(80, 95, 235, 0.371);
+    padding: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 10px;
+    }
     
+    p {
+        font-size: 15px;
+    }
+
+    input {
+        height: 25px;
+    }
+
+    #botao {
+        height: 30px;
+        width: 70px;
+        font-size: 15px;
+
+    }
+
+    #res {
+        font-size: 20px;
+    }
+
+    select {
+        width: 80%;
+    }
 }
