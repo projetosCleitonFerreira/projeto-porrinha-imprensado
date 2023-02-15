@@ -53,12 +53,13 @@ select {
     width: 550px;
     font-size: 20px;
     color: rgb(0, 0, 0);
-    height: 450px;
+    height: 400px;
 }
 
 section > div {
     font-size: 20px;
 }
+
  
 #res {
     margin: 15px;
